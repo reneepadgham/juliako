@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family:'Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -94,12 +94,12 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #f05f40;
+    color: #CC2A41;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #CC2A41;
 }
 
 .navbar-default .nav > li>a,
@@ -112,12 +112,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: #CC2A41;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #64908A!important;
+    color: #CC2A41!important;
     background-color: transparent;
 }
 
@@ -158,12 +158,12 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #64908A;
+        color: #CC2A41;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #64908A;
+        color: #CC2A41;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -173,7 +173,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #CC2A41;
     }
 }
 
@@ -490,10 +490,16 @@ body {
 
 .logo {
   margin-top: 10%;
+  width: 100px;
+  opacity: .9;
+  margin: auto;
+  display: block;
 }
 
 .scroll {
-  margin-top: 25%;
+  margin-top: 35%;
+  width: 50px;
+  opacity: .9;
 }
 
 .video {
@@ -503,29 +509,66 @@ body {
 }
 
 .projects {
-  background-color: #424254;
+  color: #424254;
 }
 
 .videos {
   background-color: #351330;
 }
 
-.contact {
-  background-color: #64908A;
+.contact h2 {
+  color: #64908A;
 }
 
 .heading {
-  color: #fff;
-  padding: 25px;
+  padding: 15px;
 }
 
 .heading h2 {
   font-size: 30px;
   font-weight: 200;
   margin: 0;
+  display: inline-block;
 }
 
 .heading img {
   width: 35px;
-  margin-bottom: 10px;
+  vertical-align: inherit;
+  margin-right: 15px;
+}
+
+.profile {
+  width: 225px;
+  border-radius: 50%;
+}
+
+.bio {
+  margin-top: 35px;
+}
+
+.modal-dialog {
+  margin-top: 10% !important;
+}
+
+#contact hr {
+  max-width: 60%;
+  border-color: #64908A;
+  border-width: 1.5px;
+}
+
+#projects hr {
+  max-width: 60%;
+  border-color: #424254;
+  border-width: 1.5px;
+  margin-bottom: 50px;
+}
+
+.linkedin img {
+  height: 15px;
+  margin-right: 5px;
+  margin-top: -3px;
+}
+
+.linkedin {
+  color: #0274B3 !important;
 }
