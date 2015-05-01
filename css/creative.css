@@ -592,16 +592,8 @@ body {
   display: block;
 }
 
-.jotform-form {
-  padding-top: 0 !important;
-}
-
-.form {
-  margin-top: -35px;
-}
-
 .service-box img {
-  width: 75px;
+  width: 35px;
 }
 
 .trvimg {
